@@ -7,6 +7,7 @@
 body {
     max-width: 1600px;
     margin: auto;
+    font-family: 'Open Sans', sans-serif;
 }
 
 nav, ul, li, a {
@@ -14,18 +15,22 @@ nav, ul, li, a {
     vertical-align: middle;
     text-decoration: none;
     color: black;
+    padding-right: 15px;
+
 }
 
 .banner-alto {
         position: fixed;
         height: 80px;
         background-color: white;
+        padding: 10px;
 
 }
 
 .logo {
     vertical-align: middle;
     display: inline-block;
+    padding-right: 35px;
 }
 
 /* REGOLE IN COMUNE BANNER SX - DX */
