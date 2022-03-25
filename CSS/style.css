@@ -8,6 +8,7 @@ body {
     max-width: 1600px;
     margin: auto;
     font-family: 'Open Sans', sans-serif;
+    background-color: bisque;
 }
 
 nav, ul, li, a {
@@ -21,9 +22,9 @@ nav, ul, li, a {
 
 .banner-alto {
         position: fixed;
-        height: 80px;
         background-color: white;
-        padding: 10px;
+        padding: 15px;
+        width: 100%;
 
 }
 
@@ -43,11 +44,11 @@ nav, ul, li, a {
 .banner-sinistra {
 
 
-
 }
 
 .banner-destra {
-
+    width: 60%;
+    text-align: right;
 }
 
 .link-banner-sinistra {
@@ -56,6 +57,7 @@ nav, ul, li, a {
 
 .link-banner-destra {
 
+    display: inline-block;
 }
 
 /* REGOLE IN COMUNE CONTAINER HEADER - FOOTER */
