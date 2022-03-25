@@ -11,23 +11,40 @@ body {
 
 .banner-alto {
         position: fixed;
+        height: 80px;
         background-color: white;
 
 }
+
+.logo {
+    vertical-align: middle;
+}
+
 /* REGOLE IN COMUNE BANNER SX - DX */
 .banner-sinistro, .banner-destro {
     display: inline-block;
+    vertical-align: middle
 
 }
 
-.banner-sinistro {
+.banner-sinistra {
 
+
+
+}
+
+.banner-destra {
 
 }
 
-.banner-destro {
+.link-banner-sinistra {
 
 }
+
+.link-banner-destra {
+
+}
+
 /* REGOLE IN COMUNE CONTAINER HEADER - FOOTER */
 .container-footer, .container-header {
     max-width: 1300px;
