@@ -9,6 +9,13 @@ body {
     margin: auto;
 }
 
+nav, ul, li, a {
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none;
+    color: black;
+}
+
 .banner-alto {
         position: fixed;
         height: 80px;
@@ -18,10 +25,11 @@ body {
 
 .logo {
     vertical-align: middle;
+    display: inline-block;
 }
 
 /* REGOLE IN COMUNE BANNER SX - DX */
-.banner-sinistro, .banner-destro {
+.banner-sinistra, .banner-destra {
     display: inline-block;
     vertical-align: middle
 
