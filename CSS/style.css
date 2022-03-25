@@ -4,15 +4,36 @@
     box-sizing: border-box;
 }
 
+body {
+    max-width: 1600px;
+    margin: auto;
+}
+
 .banner-alto {
+        position: fixed;
+        background-color: white;
+
+}
+/* REGOLE IN COMUNE BANNER SX - DX */
+.banner-sinistro, .banner-destro {
+    display: inline-block;
 
 }
 
-.container-footer, .container-header {
+.banner-sinistro {
 
+
+}
+
+.banner-destro {
+
+}
+/* REGOLE IN COMUNE CONTAINER HEADER - FOOTER */
+.container-footer, .container-header {
+    max-width: 1300px;
 
 }
 
 .container-sezioni {
-    
+    max-width: 1080px;
 }
