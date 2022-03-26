@@ -20,11 +20,20 @@ nav, ul, li, a {
 
 }
 
+.testo-grande {
+    font-size: 68px;
+    padding: 0 53px 0 53px;
+    margin-top: 78px;
+    display: inline-block;
+    
+}
+
 .banner-alto {
         position: fixed;
         background-color: white;
         padding: 15px;
         width: 100%;
+        z-index: 69;
 
 }
 
@@ -37,7 +46,7 @@ nav, ul, li, a {
 /* REGOLE IN COMUNE BANNER SX - DX */
 .banner-sinistra, .banner-destra {
     display: inline-block;
-    vertical-align: middle
+    vertical-align: middle;
 
 }
 
@@ -63,20 +72,48 @@ nav, ul, li, a {
 .bottone-generico {
     display: inline-block;
     border-style: none;
-    background-color: #025fff;
-    color: white;
-    padding: 5px 15px;
     cursor: pointer;
 }
 
 .bottone-banner {
+    background-color: #025fff;
+    color: white;
+    padding: 5px 18px;
+}
 
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.colonna-sinistra-hero {
+    float: left;
+    width: 40%;
+
+}
+
+.colonna-destra-hero {
+    float: left;
+    width: 40%;
+    
+}
+
+.immagine-hero {
+    display: inline-block;
+    width: 800px;
 }
 
 /* REGOLE IN COMUNE CONTAINER HEADER - FOOTER */
 .container-footer, .container-header {
     max-width: 1300px;
+    margin: auto;
 
+}
+
+.container-header {
+    background-color: #b4d0e6;
+    min-height: 500px;
 }
 
 .container-sezioni {
