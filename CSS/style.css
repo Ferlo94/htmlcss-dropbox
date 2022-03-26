@@ -42,12 +42,12 @@ nav, ul, li, a {
 }
 
 .banner-sinistra {
-
+    width: calc(50% - 5px);
 
 }
 
 .banner-destra {
-    width: 60%;
+    width: 50%;
     text-align: right;
 }
 
@@ -58,6 +58,19 @@ nav, ul, li, a {
 .link-banner-destra {
 
     display: inline-block;
+}
+
+.bottone-generico {
+    display: inline-block;
+    border-style: none;
+    background-color: #025fff;
+    color: white;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+.bottone-banner {
+
 }
 
 /* REGOLE IN COMUNE CONTAINER HEADER - FOOTER */
