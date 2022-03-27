@@ -20,8 +20,11 @@ nav, ul, li, a {
 
 }
 
+i {
+    font-size: 50px;
+}
 .testo-grande {
-    font-size: 68px;
+    font-size: 60px;
     padding: 0 53px 0 53px;
     margin-top: 78px;
     display: inline-block;
@@ -86,8 +89,10 @@ nav, ul, li, a {
     color: white;
     padding: 5px 18px;
     display: inline-block;
-    
+}
 
+.frasetta-hero {
+    margin-top: 15px;
 }
 
 .clearfix::after {
