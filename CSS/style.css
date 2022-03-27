@@ -98,12 +98,15 @@ nav, ul, li, .link-banner {
     display: inline-block;
 }
 
+
 .bottone-colonne-sez-1 {
     background-color: #025fff;
     color: white;
     padding: 5px 18px;
     display: inline-block;
-    
+}
+.centratura-bottoni-col {
+    text-align: center;
 }
 
 .frasetta-hero {
@@ -165,8 +168,6 @@ nav, ul, li, .link-banner {
     float: left;
     width: 30%;
     border: solid 1px;
-    min-height: 900px;
-    
 }
 
 .tab-sinistra-sezione-2 {
@@ -175,14 +176,12 @@ nav, ul, li, .link-banner {
     border: solid 1px;
     min-height: 300px;
     margin: 0px 54px;
-    min-height: 900px;
 }
 
 .tab-sinistra-sezione-3 {
     float: left;
     width: 30%;
     border: solid 1px;
-    min-height: 900px;
 }
 
 .top-colonne-sez-1 {
@@ -190,12 +189,18 @@ nav, ul, li, .link-banner {
     margin: 5px 0px;
 }
 
-.tab-sinistra-sezione-1 h3,
-.tab-sinistra-sezione-2 h3,
-.tab-sinistra-sezione-3 h3 {
-    text-align: center;
+.tab-sinistra-sezione-1,
+.tab-sinistra-sezione-2,
+.tab-sinistra-sezione-3 {
+    min-height: 900px;
+
+
 }
 
 .linea-colonne-sez-1 {
     width: 25%;
+}
+
+.padding-colonne {
+    padding: 0px 15px;
 }
