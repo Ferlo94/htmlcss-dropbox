@@ -10,16 +10,15 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-nav, ul, li, a {
+nav, ul, li, .link-banner {
     display: inline-block;
     vertical-align: middle;
     text-decoration: none;
     color: black;
     padding-right: 15px;
-
 }
 
-i {
+.testo-sinistra-hero i {
     font-size: 50px;
 }
 
@@ -99,6 +98,14 @@ i {
     display: inline-block;
 }
 
+.bottone-colonne-sez-1 {
+    background-color: #025fff;
+    color: white;
+    padding: 5px 18px;
+    display: inline-block;
+    
+}
+
 .frasetta-hero {
     margin-top: 15px;
 }
@@ -156,22 +163,39 @@ i {
 
 .tab-sinistra-sezione-1 {
     float: left;
-    width: calc(100% / 3 - 30px);
+    width: 30%;
     border: solid 1px;
-    min-height: 300px;
+    min-height: 900px;
+    
 }
 
 .tab-sinistra-sezione-2 {
     float: left;
-    width: calc(100% / 3);
+    width: 30%;
     border: solid 1px;
     min-height: 300px;
-    margin: 0px 15px;
+    margin: 0px 54px;
+    min-height: 900px;
 }
 
 .tab-sinistra-sezione-3 {
     float: left;
-    width: calc(100% / 3);
+    width: 30%;
     border: solid 1px;
-    min-height: 300px;
+    min-height: 900px;
+}
+
+.top-colonne-sez-1 {
+    text-align: center;
+    margin: 5px 0px;
+}
+
+.tab-sinistra-sezione-1 h3,
+.tab-sinistra-sezione-2 h3,
+.tab-sinistra-sezione-3 h3 {
+    text-align: center;
+}
+
+.linea-colonne-sez-1 {
+    width: 25%;
 }
