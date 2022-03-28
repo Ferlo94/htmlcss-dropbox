@@ -263,4 +263,19 @@ nav, ul, li, .link-banner {
     border: 1px solid black;
 }
 
+.colonna-sinistra-sezione-3 {
+    float: left;
+    width: calc(100% / 3);
+}
+
+.colonna-centrale-sezione-3 {
+    float: left;
+    width: calc(100% / 3)
+}
+
+.colonna-destra-sezione-3 {
+    float: left;
+    width: calc(100% / 3)
+}
+
 
