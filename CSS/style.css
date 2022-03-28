@@ -66,7 +66,7 @@ nav, ul, li, .link-banner {
 }
 
 .banner-destra {
-    width: 34%;
+    width: 45%;
     text-align: right;
 }
 
@@ -157,7 +157,7 @@ nav, ul, li, .link-banner {
     min-height: 560px;
 }
 
-.container-sezioni .sezione-1 {
+.container-sezioni, .sezione-1, .sezione-2 {
     max-width: 1080px;
     margin: auto;
 }
@@ -218,6 +218,7 @@ nav, ul, li, .link-banner {
 
 .colonne-finali-sez-1 {
     border: solid 1px;
+    margin-bottom: 30px;
 }
 
 .colonna-finale-sinistra-sez-1 {
@@ -237,5 +238,29 @@ nav, ul, li, .link-banner {
     padding-left: 30px;
     padding: 20px 0px 20px 30px;
 }
+
+.colonna-sinistra-sezione-2 {
+    float: left;
+    width: 50%;
+    background-image: url(../img/partner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
 }
+
+.colonna-destra-sezione-2 {
+    float: left;
+    width: calc(50% - 20px);
+    margin-left: 20px;
+    padding-left: 30px;
+}
+
+.bottone-sezione-2 {
+    background-color: white;
+    color: black;
+    padding: 5px 18px;
+    display: inline-block;
+    border: 1px solid black;
+}
+
 
