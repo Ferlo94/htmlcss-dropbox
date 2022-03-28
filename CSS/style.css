@@ -19,7 +19,7 @@ nav, ul, li, .link-banner {
 }
 
 .testo-sinistra-hero i {
-    font-size: 50px;
+    font-size: 45px;
 }
 
 .sezione-1 h2 {
@@ -66,7 +66,7 @@ nav, ul, li, .link-banner {
 }
 
 .banner-destra {
-    width: 50%;
+    width: 34%;
     text-align: right;
 }
 
@@ -192,7 +192,7 @@ nav, ul, li, .link-banner {
 .tab-sinistra-sezione-1,
 .tab-sinistra-sezione-2,
 .tab-sinistra-sezione-3 {
-    min-height: 900px;
+    min-height: 1100px;
 
 
 }
@@ -204,3 +204,38 @@ nav, ul, li, .link-banner {
 .padding-colonne {
     padding: 0px 15px;
 }
+
+.fa-check {
+    color: #025fff;
+}
+
+.icona-bassa-sez-1 {
+    text-align: center;
+    border: solid 1px;
+    padding: 7px 0px;
+    margin-bottom: 30px;
+}
+
+.colonne-finali-sez-1 {
+    border: solid 1px;
+}
+
+.colonna-finale-sinistra-sez-1 {
+    float: left;
+    width: 65%;
+}
+
+.colonna-finale-destra-sez-1 {
+    float: left;
+    width: 35%;
+}
+
+.colonna-finale-sinistra-sez-1,
+.colonna-finale-destra-sez-1 {
+    min-height: 200px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding: 20px 0px 20px 30px;
+}
+}
+
