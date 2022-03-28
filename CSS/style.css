@@ -162,6 +162,10 @@ nav, ul, li, .link-banner {
     margin: auto;
 }
 
+.sezione-2 {
+    margin-bottom: 50px;
+}
+
 /* -------------------- */
 
 .tab-sinistra-sezione-1 {
@@ -265,17 +269,32 @@ nav, ul, li, .link-banner {
 
 .colonna-sinistra-sezione-3 {
     float: left;
-    width: calc(100% / 3);
+    width: calc(100% / 3 - 60px);
+    object-fit: cover;
+    position: relative;
+    min-width: 100px;
+    margin-bottom: 50px;
 }
 
 .colonna-centrale-sezione-3 {
     float: left;
-    width: calc(100% / 3);
+    width: calc(100% / 3 - 60px);
+    object-fit: cover;
+    position: relative;
+    min-width: 100px;
+    margin: 0px 90px 50px 90px;
 }
 
 .colonna-destra-sezione-3 {
     float: left;
-    width: calc(100% / 3);
+    width: calc(100% / 3 - 60px);
+    object-fit: cover;
+    position: relative;
+    min-width: 100px;
+    margin-bottom: 50px;
 }
 
-
+.immagine-1-sezione-3 {
+    width: 100%;
+    
+}
