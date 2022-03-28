@@ -270,12 +270,12 @@ nav, ul, li, .link-banner {
 
 .colonna-centrale-sezione-3 {
     float: left;
-    width: calc(100% / 3)
+    width: calc(100% / 3);
 }
 
 .colonna-destra-sezione-3 {
     float: left;
-    width: calc(100% / 3)
+    width: calc(100% / 3);
 }
 
 
