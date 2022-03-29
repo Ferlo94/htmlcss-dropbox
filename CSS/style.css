@@ -35,16 +35,14 @@ nav, ul, li, .link-banner {
     padding: 0 53px 0 53px;
     margin-top: 78px;
     display: inline-block;
-    
 }
 
 .banner-alto {
-        position: fixed;
-        background-color: white;
-        padding: 15px;
-        width: 100%;
-        z-index: 69;
-
+    position: fixed;
+    background-color: white;
+    padding: 15px;
+    width: 100%;
+    z-index: 69;
 }
 
 .logo {
@@ -57,25 +55,18 @@ nav, ul, li, .link-banner {
 .banner-sinistra, .banner-destra {
     display: inline-block;
     vertical-align: middle;
-
 }
 
 .banner-sinistra {
     width: calc(50% - 5px);
-
 }
 
 .banner-destra {
-    width: 45%;
+    width: 50%;
     text-align: right;
 }
 
-.link-banner-sinistra {
-
-}
-
 .link-banner-destra {
-
     display: inline-block;
 }
 
@@ -98,13 +89,13 @@ nav, ul, li, .link-banner {
     display: inline-block;
 }
 
-
 .bottone-colonne-sez-1 {
     background-color: #025fff;
     color: white;
     padding: 5px 18px;
     display: inline-block;
 }
+
 .centratura-bottoni-col {
     text-align: center;
 }
@@ -119,19 +110,12 @@ nav, ul, li, .link-banner {
     clear: both;
 }
 
-.colonna-sinistra-hero {
-   
-
-}
-
 .testo-sinistra-hero {
     float: left;
     width: 50%;
     padding: 20px 70px 20px 80px;
     min-height: 200px;
-
 }
-
 
 .colonna-destra-hero {
     float: left;
@@ -146,24 +130,34 @@ nav, ul, li, .link-banner {
 }
 
 /* REGOLE IN COMUNE CONTAINER HEADER - FOOTER */
-.container-footer, .container-header {
+.container-footer, .container-header, .bottom-sezione-4  {
     max-width: 1300px;
     margin: auto;
 
 }
+
+.bottom-sezione-4 {
+    max-width: 1300px;
+    margin: auto;
+    background-color: chocolate;
+} 
 
 .container-header {
     background-color: #b4d0e6;
     min-height: 560px;
 }
 
-.container-sezioni, .sezione-1, .sezione-2 {
+.container-sezioni, .sezione-1, .sezione-2, .top-sezione-4 {
     max-width: 1080px;
     margin: auto;
 }
 
 .sezione-2 {
     margin-bottom: 50px;
+}
+
+.link-blu {
+    color: #025fff;
 }
 
 /* -------------------- */
@@ -197,8 +191,6 @@ nav, ul, li, .link-banner {
 .tab-sinistra-sezione-2,
 .tab-sinistra-sezione-3 {
     min-height: 1100px;
-
-
 }
 
 .linea-colonne-sez-1 {
@@ -296,5 +288,71 @@ nav, ul, li, .link-banner {
 
 .immagine-1-sezione-3 {
     width: 100%;
+}
+
+/* SEZIONE 4 */
+
+.colonna-sinistra-sezione-4, .colonna-destra-sezione-4 {
+    font-size: 0;
+    width: 20vw;
+}
+
+.quadrato-verde-sinistra, .quadrato-marrone-sinistra, 
+.quadrato-rosso-destra, .quadrato-grigio-destra, 
+.quadrato-celeste-sinistra, .quadrato-rosso-acceso-sinistra,
+.quadrato-blu-destra {
+    height: 10vw;
+    width: 10vw;
+    display: inline-block;
+}
+
+.colonna-sinistra-sezione-4 {
+    float: left;
+    background-color: blueviolet;
+    min-height: 20vw;
     
 }
+
+.colonna-centrale-sezione-4 {
+    float: left;
+    width: calc(1300px - 40vw);
+    background-color: bisque;
+    min-height: 20vw;
+}
+
+.colonna-destra-sezione-4 {
+    float: left;
+    background-color: rgb(27, 194, 152);
+    min-height: 20vw;
+}
+
+.quadrato-verde-sinistra {
+    background-color: #a3d49c;
+}
+
+.quadrato-marrone-sinistra {
+    background-color: #62082b;
+}
+
+.quadrato-celeste-sinistra {
+    background-color: #0393cf;
+}
+
+.quadrato-rosso-acceso-sinistra {
+    background-color: #fe1c1e;
+}
+
+.quadrato-rosso-destra {
+    background-color: #d50020;
+}
+
+.quadrato-grigio-destra {
+    background-color: #b4d0e6;
+}
+
+.quadrato-blu-destra {
+    background-color: #0e2582;
+}
+
+
+
