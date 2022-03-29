@@ -148,7 +148,9 @@ nav, ul, li, .link-banner {
     min-height: 560px;
 }
 
-.container-sezioni, .sezione-1, .sezione-2, .top-sezione-4 {
+.container-sezioni, .sezione-1, 
+.sezione-2, .top-sezione-4, .colonna-sinistra-sezione-5,
+.colonna-destra-sezione-5 {
     max-width: 1080px;
     margin: auto;
 }
@@ -437,7 +439,40 @@ nav, ul, li, .link-banner {
 
 .sezione-5 {
     background-color: #b4d0e6;
-    min-height: 300px;
+    min-height: 250px;
+}
+
+.colonna-sinistra-sezione-5 {
+    float: left;
+    width: 60%;
+}
+
+.colonna-destra-sezione-5 {
+    float: left;
+    width: 40%;
+}
+
+.bottone-sezione-5 {
+    display: inline-block;
+    border-style: none;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    padding: 5px 18px;
+    display: inline-block;
+    margin-left: 150px;
+}
+
+.colonna-sinistra-sezione-5, 
+.colonna-destra-sezione-5 {
+    margin-top: 70px;
+
+}
+
+.h2-sezione-5 {
+    color: #73042c;
+    display: inline-block;
+    margin-left: 180px;
 }
 
 
