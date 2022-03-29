@@ -300,7 +300,7 @@ nav, ul, li, .link-banner {
 .quadrato-verde-sinistra, .quadrato-marrone-sinistra, 
 .quadrato-rosso-destra, .quadrato-grigio-destra, 
 .quadrato-celeste-sinistra, .quadrato-rosso-acceso-sinistra,
-.quadrato-blu-destra {
+.quadrato-blu-destra, .quadrato-giallo-destra {
     height: 10vw;
     width: 10vw;
     display: inline-block;
@@ -317,7 +317,7 @@ nav, ul, li, .link-banner {
 .colonna-centrale-sezione-4 {
     float: left;
     width: calc(1300px - 40vw);
-    background-color: bisque;
+    background-color: #f6f6f6;
     min-height: 20vw;
 }
 
@@ -355,8 +355,14 @@ nav, ul, li, .link-banner {
     background-color: #0e2582;
 }
 
+.quadrato-giallo-destra {
+    background-color: #ffd930;
+}
+
 .design-logo, .arizona-logo, 
-.florida-logo, .topps-logo {
+.florida-logo, .topps-logo,
+.bicycle-logo, .hearts-logo,
+.planet-logo, .clear-logo {
     width: 100px;
     display: block;
     margin: auto;
@@ -382,6 +388,26 @@ nav, ul, li, .link-banner {
 
 .topps-logo {
     top: 34%;
+    left: 19%;
+}
+
+.bicycle-logo {
+    top: 39%;
+    left: 19%;
+}
+
+.hearts-logo {
+    top: 51%;
+    left: 19%;
+}
+
+.planet-logo {
+    top: 36%;
+    left: 19%;
+}
+
+.clear-logo {
+    top: 27%;
     left: 19%;
 }
 
