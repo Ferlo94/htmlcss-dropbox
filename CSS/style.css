@@ -520,7 +520,7 @@ footer {
     width: 8%;
 }
 
-.fa-solid.fa-earth-americas {
+.fa-solid.fa-earth-americas, .fa-solid.fa-caret-up {
     color: grey;
 }
 
