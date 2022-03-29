@@ -304,6 +304,7 @@ nav, ul, li, .link-banner {
     height: 10vw;
     width: 10vw;
     display: inline-block;
+    position: relative;
 }
 
 .colonna-sinistra-sezione-4 {
@@ -352,6 +353,36 @@ nav, ul, li, .link-banner {
 
 .quadrato-blu-destra {
     background-color: #0e2582;
+}
+
+.design-logo, .arizona-logo, 
+.florida-logo, .topps-logo {
+    width: 100px;
+    display: block;
+    margin: auto;
+    filter: invert(1);
+    position: absolute;
+   
+}
+
+.design-logo {
+    top: 44%;
+    left: 22%;
+}
+
+.arizona-logo {
+    top: 28%;
+    left: 22%;
+}
+
+.florida-logo {
+    top: 45%;
+    left: 20%;
+}
+
+.topps-logo {
+    top: 34%;
+    left: 19%;
 }
 
 
