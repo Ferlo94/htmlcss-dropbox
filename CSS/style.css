@@ -130,7 +130,8 @@ nav, ul, li, .link-banner {
 }
 
 /* REGOLE IN COMUNE CONTAINER HEADER - FOOTER */
-.container-footer, .container-header, .bottom-sezione-4  {
+.container-footer, .container-header, 
+.bottom-sezione-4, .sezione-5  {
     max-width: 1300px;
     margin: auto;
 
@@ -427,10 +428,16 @@ nav, ul, li, .link-banner {
     color: #dfdfdf;
 }
 
-.frase-lunga-sez-4 {
+.frase-sez-4 {
     display: inline-block;
     margin: 140px 40px 0px 40px;
 }
 
+/* SEZIONE 5 */
+
+.sezione-5 {
+    background-color: #b4d0e6;
+    min-height: 300px;
+}
 
 
