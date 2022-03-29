@@ -508,6 +508,7 @@ footer {
 .colonna-footer > p {
     color: white;
     margin-bottom: 7px;
+    font-size: 12px;
 }
 
 .colonna-footer > h3 {
