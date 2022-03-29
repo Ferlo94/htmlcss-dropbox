@@ -150,7 +150,7 @@ nav, ul, li, .link-banner {
 
 .container-sezioni, .sezione-1, 
 .sezione-2, .top-sezione-4, .colonna-sinistra-sezione-5,
-.colonna-destra-sezione-5 {
+.colonna-destra-sezione-5, .sezione-6 {
     max-width: 1080px;
     margin: auto;
 }
@@ -440,6 +440,7 @@ nav, ul, li, .link-banner {
 .sezione-5 {
     background-color: #b4d0e6;
     min-height: 250px;
+    margin-bottom: 50px;
 }
 
 .colonna-sinistra-sezione-5 {
@@ -473,6 +474,16 @@ nav, ul, li, .link-banner {
     color: #73042c;
     display: inline-block;
     margin-left: 180px;
+}
+
+/* SEZIONE 6 */
+
+.testo-sezione-6 {
+    padding: 30px 0px 30px 0px;
+}
+
+.fa-solid, .fa-chevron-down {
+    margin-left: 300px;
 }
 
 
