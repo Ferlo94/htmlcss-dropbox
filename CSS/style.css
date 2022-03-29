@@ -319,6 +319,7 @@ nav, ul, li, .link-banner {
     width: calc(1300px - 40vw);
     background-color: #f6f6f6;
     min-height: 20vw;
+    position: relative;
 }
 
 .colonna-destra-sezione-4 {
@@ -409,6 +410,21 @@ nav, ul, li, .link-banner {
 .clear-logo {
     top: 27%;
     left: 19%;
+}
+
+.logo-col-centrale {
+    width: 110px;
+    top: 33px;
+    left: 30px;
+    position: absolute;
+}
+
+.linea-sezione-4 {
+    width: 7%;
+    position: absolute;
+    top: 98px;
+    left: 30px;
+    color: #dfdfdf;
 }
 
 
