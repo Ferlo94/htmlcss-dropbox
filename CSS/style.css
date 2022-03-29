@@ -130,7 +130,7 @@ nav, ul, li, .link-banner {
 }
 
 /* REGOLE IN COMUNE CONTAINER HEADER - FOOTER */
-.container-footer, .container-header, 
+.container-header, 
 .bottom-sezione-4, .sezione-5  {
     max-width: 1300px;
     margin: auto;
@@ -483,6 +483,35 @@ nav, ul, li, .link-banner {
 
 .fa-solid.fa-chevron-down {
     margin-left: 300px;
+}
+
+footer {
+    background-color: black;
+    min-height: 300px;
+    max-width: 1300px;
+    margin: auto;
+}
+
+.container-footer {
+    max-width: 1080px;
+    margin: auto;
+    min-height: 300px;
+}
+
+.colonna-footer {
+    padding-top: 70px;
+    float: left;
+    width: calc(100% / 5);
+    padding-left: 40px;
+}
+
+.colonna-footer > p {
+    color: white;
+    margin-bottom: 7px;
+}
+
+.colonna-footer > h3 {
+    color: white;
 }
 
 
